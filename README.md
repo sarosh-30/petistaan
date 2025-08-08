@@ -23,4 +23,19 @@ It demonstrates layered architecture and uses Spring Data JPA, Lombok, and MapSt
 
 ## 📁 Project Structure
 
-
+petistaan/
+├── src/
+│ └── main/
+│ ├── java/
+│ │ └── com/
+│ │ └── petistaan/
+│ │ ├── controller/
+│ │ ├── service/
+│ │ ├── repository/
+│ │ ├── dto/
+│ │ ├── entity/
+│ │ └── mapper/
+│ └── resources/
+│ ├── application.properties
+├── pom.xml
+└── README.md
